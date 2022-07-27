@@ -26,7 +26,7 @@ public class IrsAppApplication implements CommandLineRunner {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter user Id: ");
 			String uid = sc.next();
-			System.out.println("Enter password: ");
+			System.out.println("Enter Password: ");
 			String pwd = sc.next();
 			System.out.println("Enter name: ");
 			String name = sc.next();
