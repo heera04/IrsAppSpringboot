@@ -24,7 +24,7 @@ public class IrsAppApplication implements CommandLineRunner {
 		try {
 			User user = new User();
 			Scanner sc = new Scanner(System.in);
-			System.out.println("Enter user id: ");
+			System.out.println("Enter user Id: ");
 			String uid = sc.next();
 			System.out.println("Enter password: ");
 			String pwd = sc.next();
@@ -34,7 +34,7 @@ public class IrsAppApplication implements CommandLineRunner {
 			String city = sc.next();
 			System.out.println("Enter email: ");
 			String mail = sc.next();
-			System.out.println("Enter phone: ");
+			System.out.println("Enter phone Number: ");
 			String phone = sc.next();
 			sc.close();
 			user.setCity(city);
