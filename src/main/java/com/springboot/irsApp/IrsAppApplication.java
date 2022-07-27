@@ -30,7 +30,7 @@ public class IrsAppApplication implements CommandLineRunner {
 			String pwd = sc.next();
 			System.out.println("Enter your name: ");
 			String name = sc.next();
-			System.out.println("Enter city: ");
+			System.out.println("Enter your city: ");
 			String city = sc.next();
 			System.out.println("Enter email: ");
 			String mail = sc.next();
